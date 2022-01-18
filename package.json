@@ -1,0 +1,27 @@
+{
+  "name": "ep_export_documents_images",
+  "version": "0.0.7",
+  "keywords":[
+    "export",
+    "documents",
+    "pdf",
+    "odt",
+    "libreoffice",
+    "openoffice",
+    "images",
+    "etherpad-lite"
+  ],
+  "description": "This plugin for Etherpad-Lite exports pad in a document (.odt, .doc, .pdf), with images for embedded pictures. Use the 'soffice' command. Only tested on Linux for now. BETA VERSION.",
+  "author":{
+      "name": "Benoit Lathiere",
+      "email": "benoit.lathiere@gmail.com",
+      "url": "http://benoit.lathiere.free.fr"
+  },
+  "engines":{
+    "node": ">=0.8.0"
+  },
+  "os":["linux"],
+  "readmeFilename": "readme.md",
+  "_id": "ep_export_documents_images@lastest",
+  "license": "GPL v2"
+}

@@ -1,0 +1,6 @@
+{
+  "ep_export_documents_images.pdf_images" : "PDF mit Bildern",
+  "ep_export_documents_images.odt_images" : "OpenDocument mit Bildern",
+  "ep_export_documents_images.doc_images" : "MS Word mit Bildern",
+  "ep_export_documents_images.docx_images" : "MS Word 2007 (OpenXML) mit Bildern"
+}

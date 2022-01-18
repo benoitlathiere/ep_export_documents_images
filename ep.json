@@ -1,0 +1,16 @@
+{
+  "parts":[
+    {
+      "name":"export_documents_images",
+      "pre":["ep_etherpad-lite/webaccess"],
+      "post":["html_export_using_client_filters"],
+      "hooks":{
+        "expressCreateServer":"ep_export_documents_images/hooks",
+        "eejsBlock_exportColumn":"ep_export_documents_images/hooks",
+        "eejsBlock_scripts":"ep_export_documents_images/hooks",
+        "eejsBlock_styles":"ep_export_documents_images/hooks",
+        "getLineHTMLForExport":"ep_export_documents_images/hooks"
+      }
+    }
+  ]
+}

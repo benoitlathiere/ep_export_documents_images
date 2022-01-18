@@ -1,0 +1,25 @@
+#documentimages-div-pdf {
+	background-position: 0px -371px;
+}
+
+#documentimages-div-odt {
+	background-position: 0px -347px;
+}
+
+#documentimages-div-doc {
+	background-position: 0px -275px;
+}
+
+#documentimages-div-docx {
+	background-position: 0px -275px;
+}
+
+.documentimages-images {
+	width: 300px;
+	height: auto;
+}
+
+.documentimages-maxwidth {
+	/*width: 200%;	//400px*/
+	
+}
